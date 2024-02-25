@@ -1,0 +1,23 @@
+.right
+{
+    position: absolute;
+    right: 0;
+
+    >.links
+    {
+        margin-left: 2px;
+    }
+}
+
+.left
+{
+    position: absolute;
+    left: 0;
+
+    .title
+    {
+        font-size: 21px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+}
