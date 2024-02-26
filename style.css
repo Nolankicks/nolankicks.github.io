@@ -27,7 +27,6 @@
     {
         width: 32px;
         padding: 4px;
-        
         &.sbox
         {
             border-radius: 12px;
@@ -45,7 +44,6 @@
     position: absolute;
     align-items: center;
     justify-content: center;
-
     >.box
     {
         border: 5px solid;
