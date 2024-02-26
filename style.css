@@ -1,45 +1,76 @@
-.right
+.title
+{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    >.img
+    {
+       width: 32px;
+        height: 32px;
+        
+    }
+    >.left
+    {
+        position: absolute;
+        left: 0;
+        padding: 4px;
+        font-family: poppins;
+        font-size: 24px;
+    }
+    >.right
 {
     position: absolute;
     right: 0;
-    >.links
+    padding-right: 10px;
+    .img
     {
-        margin-left: 2px;
-        background-color: rgb(98, 95, 109);
-        padding: 10px;
-        border-radius: 8px;
-        font-family: poppins;
-        &:hover
-        {
-            background-color: rgb(20, 20, 255);
-            color: white;
-        }
-    }
-}
-
-.left
-{
-    position: absolute;
-    left: 0;
-    margin-left: 16px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    .titles
-    {
-        >.title
-        {
-            font-size: 21px;
-            font-weight: bold;
-            margin-bottom: 16px;
-        }
+        width: 32px;
+        padding: 4px;
         
+        &.sbox
+        {
+            border-radius: 12px;
+        }
     }
 }
 
-.games
-{
-    width: 200px;
-    height: 200px;
-    border-radius: 16px;
-    
 }
+.main
+{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
 
+    >.box
+    {
+        border: 5px solid;
+        border-radius: 16px;
+        width: 200px;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        >.header
+        {
+            font-family: poppins;
+            font-size: 24px;
+            padding: 8px;
+        }
+    }
+}
+h1
+{
+    font-family: poppins;
+    font-size: 24px;
+    padding: 8px;
+}
+.img
+{
+    border-radius: 16px;
+    width: 120px;
+}
