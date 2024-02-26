@@ -44,7 +44,7 @@ main {
     .about
     {
         font-family: poppins;
-        font-size: 16px;
+        font-size: 24px;
         flex-direction: column;
     }
     >.box
@@ -54,7 +54,7 @@ main {
         border: 5px solid;
         border-radius: 12px;
         padding: 20px;
-        height: 300px;
+        height: 450px;
         width: 150px;
         align-items: center;
         text-align: center;
