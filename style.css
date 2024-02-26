@@ -9,6 +9,11 @@
         padding: 10px;
         border-radius: 8px;
         font-family: poppins;
+        &:hover
+        {
+            background-color: rgb(20, 20, 255);
+            color: white;
+        }
     }
 }
 
@@ -16,7 +21,8 @@
 {
     position: absolute;
     left: 0;
-    
+    margin-left: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     .titles
     {
         >.title
@@ -34,10 +40,6 @@
     width: 200px;
     height: 200px;
     border-radius: 16px;
-    margin: 8px;
     
 }
-a
-{
-    color: rgb(116, 116, 240);
-}
+
