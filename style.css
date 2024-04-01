@@ -1,74 +1,50 @@
-.title
-{
-    position: absolute;
-    align-items: center;
-    text-align: center;
+html, body {
+    height: 100%;
     width: 100%;
-    >.img
-    {
-       width: 32px;
-        height: 32px;
-        
-    }
-    >.left
-    {
-        position: absolute;
-        left: 0;
-        padding: 4px;
-        font-family: poppins;
-        font-size: 24px;
-    }
-    >.right
-{
-    position: absolute;
-    right: 0;
-    padding-right: 10px;
-    .img
-    {
-        width: 32px;
-        padding: 4px;
-        &.sbox
-        {
-            border-radius: 12px;
-        }
-    }
-}
-
-}
-main {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    .about
-    {
-        font-family: poppins;
-        font-size: 24px;
-        flex-direction: column;
-    }
-    >.box
-    {
-        position: absolute;
-        right: 0;
-        border: 5px solid;
-        border-radius: 12px;
-        padding: 20px;
-        height: 450px;
-        width: 150px;
-        align-items: center;
-        text-align: center;
+}
 
-        >.text
+.effect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    @apply absolute w-full h-full -z-10;
+    filter: contrast(175%) brightness(100%); 
+    background:
+    linear-gradient(0deg, black, transparent),
+    url('assets/noise.svg');
+}
+
+.name {
+    position: absolute;
+    z-index: 1;
+    font-family: poppins;
+    left: 12px;
+    top: 12px;
+    font-size: 32px;
+}
+
+.links {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    font-size: 32px;
+    
+    >.link
+    {
+        color: white;
+        text-decoration: none;
+        transition: 0.2s;
+        &:hover
         {
-            font-family: poppins;
-            font-size: 24px;
-        }
-        .img
-        {
-            width: 120px;
-            height: 120px;
-            border-radius: 12px;
+            color: #ff0000;
         }
     }
 }
