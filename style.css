@@ -55,7 +55,7 @@ html, body {
     box-shadow: black 0px 0px 16px 0px;
     border-radius: 16px;
     z-index: 1;
-    font-family: poppins;
+    font-family: Poppins, sans-serif;
     .name
     {
         position: absolute;
