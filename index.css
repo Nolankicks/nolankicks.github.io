@@ -84,3 +84,29 @@ html, body {
         top: 12px;
     }
 }
+
+.project
+{
+    top: 12px;
+    right: 12px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    >.link
+    {
+        color: white;
+        text-decoration: none;
+        transition: 0.2s;
+        color: black;
+        &:hover
+        {
+            color: #ff0000;
+        }
+    }
+}
