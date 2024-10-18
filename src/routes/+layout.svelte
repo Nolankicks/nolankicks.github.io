@@ -1,11 +1,13 @@
 <script>
     import "../app.css";
     import Background from "../lib/components/Background.svelte";
+
+    import { base } from "$app/paths";
 </script>
 
 <nav class="sticky top-0 z-50 mx-auto flex w-full flex-col bg-black p-2 drop-shadow-md text-white font-poppins">
     <div class="container mx-auto flex flex-row items-center justify-between">
-        <a href="/" class="hover:scale-105 transition-all active:scale-95">kicks</a>
+        <a href="{base}/" class="hover:scale-105 transition-all active:scale-95">kicks</a>
         
         <!--
         <div class="flex space-x-4">
