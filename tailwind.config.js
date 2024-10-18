@@ -6,7 +6,7 @@ module.exports = {
         colors: {
 			white: '#FFFFFF',
 			transparentblue: '#2447f779',
-			blue: '#2446f7',
+			blue: 'cyan',
 			black: '#000000',
 			transparentblack1: '#000000BB',
 			transparentblack0: '#00000011',
@@ -16,7 +16,11 @@ module.exports = {
 			lightblue: '#0092ff',
 			transparent: 'transparent'
 		},
-      extend: {},
+      extend: {
+            fontFamily: {
+                poppins: ['Poppins', 'sans-serif']
+            }
+      },
     },
     plugins: [],
   };
