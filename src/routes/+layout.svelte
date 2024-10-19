@@ -1,7 +1,7 @@
 <script lang="ts">
     import "../app.css";
     import Background from "../lib/components/Background.svelte";
-    import type { PageData } from './$types';
+    import "../syntax-highlight.css";
 </script>
 
 <nav class="sticky top-0 z-50 mx-auto flex w-full flex-col bg-blue p-2 drop-shadow-md text-white font-poppins">

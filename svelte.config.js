@@ -32,9 +32,9 @@ const config = {
         vitePreprocess(),
         mdsvex(mdsvexConfig),
         autoImport({
-            include: ['**/*.(svelte|md)'],
-            components: ['./src/lib/components/', { name: './src' }]
-        })
+			include: ['**/*.(svelte|md)'],
+			components: ['./src/lib/components/', { name: './src' }]
+		})
     ],
 };
 

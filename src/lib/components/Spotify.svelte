@@ -6,7 +6,6 @@
 		border-radius: 0.8rem;
 		height: ${height};
 		width: ${width};
-        margin-bottom: 1rem;
 	`;
 </script>
 

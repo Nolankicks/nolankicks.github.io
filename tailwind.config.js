@@ -9,6 +9,7 @@ module.exports = {
 			blue: 'rgba(46, 138, 212, 1)',
 			black: '#000000',
 			transparentblack1: '#000000BB',
+            
 			transparentblack0: '#00000011',
 			darkblue: '#091856',
 			navyblue: '#0f2898',
@@ -22,5 +23,7 @@ module.exports = {
             }
       },
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography'), // Ensure you have the typography plugin installed
+      ],
   };
