@@ -21,7 +21,5 @@ export const load: PageServerLoad = async ({ fetch }) => {
         return new Date(b.date).valueOf() - new Date(a.date).valueOf();
     });
 
-    console.log(posts);
-
     return { posts };
 };
