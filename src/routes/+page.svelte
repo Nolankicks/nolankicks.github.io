@@ -9,7 +9,7 @@
         <div class="w-full flex flex-col sm:flex-row items-center mb-4">
             <div class="bg-transparentblack0 w-32 h-32 rounded-md shrink-0 mb-4 sm:mb-0 sm:mr-4" style="background-image: url({url}); background-size: cover;"></div>
             <div class="w-full flex items-center justify-start p-4 sm:p-6">
-                <div class="text-[14px] sm:text-[16px]">Hey I'm kicks, I enjoy programming using C#, TS/JS, and HTML + CSS</div>
+                <div class="text-[14px] sm:text-[16px]">Hey, I'm kicks, I enjoy programming using C#, TS/JS, and HTML + CSS</div>
             </div>
         </div>
         <div class="w-full flex items-center justify-center sm:justify-start gap-4">

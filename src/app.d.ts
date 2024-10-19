@@ -7,6 +7,14 @@ declare global {
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
+
+        interface Project {
+            title: string,
+            description: string,
+            date: string,
+            link: string?,
+            image: string?
+        }
 	}
 }
 
