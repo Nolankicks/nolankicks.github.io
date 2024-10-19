@@ -8,3 +8,8 @@
 	font-weight: 400;
 	src: url('/fonts/Poppins-Regular.ttf');
 }
+
+body,
+html {
+  scroll-padding-top: 60px;
+}
