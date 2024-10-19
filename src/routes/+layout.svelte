@@ -2,6 +2,7 @@
     import "../app.css";
     import Background from "../lib/components/Background.svelte";
     import type { PageData } from './$types';
+    import Spotify from '$lib/components/Spotify.svelte';
 
     import { base } from "$app/paths";
 </script>
@@ -12,6 +13,7 @@
         
         <div class="flex space-x-4">
             <a href="{base}/projects" class="text-white hover:text-gray-300 hover:scale-105 active:text-gray-500 active:scale-95 transition-all">Projects</a>
+            <a href="{base}/blog" class="text-white hover:text-gray-300 hover:scale-105 active:text-gray-500 active:scale-95 transition-all">Blogs</a>
         </div>
     </div>
 </nav>
