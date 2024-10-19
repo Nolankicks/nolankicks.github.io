@@ -7,9 +7,9 @@
 	export let alt: string = '';
 </script>
 
-<div class="text-center ">
+<div class="text-center">
 	<img
-		class="mx-auto flex justify-center rounded-lg"
+		class="mx-auto flex justify-center rounded-[0.3em]"
 		class:caption-img={caption}
 		src={src}
 		alt={alt ? alt : src}
