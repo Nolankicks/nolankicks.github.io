@@ -19,6 +19,7 @@
         "@sveltejs/kit": "^2.0.0",
         "@sveltejs/vite-plugin-svelte": "^3.0.0",
         "autoprefixer": "^10.4.20",
+        "sveltekit-autoimport": "^1.8.0",
         "gh-pages": "^6.2.0",
         "postcss": "^8.4.47",
         "prettier": "^3.1.1",
