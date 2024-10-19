@@ -23,7 +23,7 @@
 
         <hr class="border-t-2 border-pictonblue mb-10" />
         <article
-            class="prose prose-maincolors w-full rounded-md p-5 font-inter bg-blackalpha backdrop-blur-3xl border border-platinum text-platinum max-w-full shadow-lg"
+            class="bg-transparentblue w-full rounded-md p-5 font-inter bg-blackalpha backdrop-blur-3xl max-w-full shadow-2xl font-poppins"
         >
             <svelte:component this={data.content} />
         </article>
