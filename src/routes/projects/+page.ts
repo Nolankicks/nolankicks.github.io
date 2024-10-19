@@ -12,7 +12,7 @@ const deadleft: App.Project = {
     title: "Dead 4 Left",
     description: "A gamemode in s&box I made when I first learned programming, rewrote recently",
     date: "May 25 2024",
-    link: "https://sbox.game/nolankicks/deadleft",
+    link: "https://sbox.game/nolankicks/dead4left",
     image: "sbox.png",
 };
 
