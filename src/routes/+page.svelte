@@ -2,6 +2,7 @@
     const url = "https://avatars.githubusercontent.com/u/95300917?s=400&u=4b7a75efdafbd368929511d483099250821ded21&v=4";
     const githubUrl = "github-mark.png";
     const sboxUrl = "sbox.png";
+    import DiscordEmbed from "../lib/components/DiscordEmbed.svelte";
 </script>
 
 <div class="min-h-screen flex items-center justify-center font-poppins text-white p-4">
@@ -24,3 +25,5 @@
         </div>
     </div>
 </div>
+
+<DiscordEmbed title="kicks" description="Programmer" />

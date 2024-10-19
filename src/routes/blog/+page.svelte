@@ -4,6 +4,8 @@
     export let data;
 </script>
 
+<div class="container mx-auto font-poppinsl font-poppins text-white flex p-6 text-2xl font-bold">Blogs I feel like sharing</div>
+
 <div class="container mx-auto p-4 font-poppins">
     {#each data.posts as blogPost}
         <a href={`blog/${blogPost.slug}`} class="block p-4 bg-transparentblue rounded-md shadow-lg mb-4 hover:scale-105 active:scale-95 transition-all">
