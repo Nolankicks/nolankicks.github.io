@@ -39,4 +39,4 @@ Ever since I wrote a bot for my discord I've been wanting to jump into web dev.
 I enjoyed the overall experience of using svelte and would reccomend it. Shout out to matek and duston for their refrence code from their websites.
 I plan to post more blogs on here about whatever.
 
-<Spotify src="track/2pNYM3OcS7WdCW13TuhMeK" />
+<Spotify src="track/2kRFrWaLWiKq48YYVdGcm8" />
