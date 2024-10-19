@@ -17,9 +17,10 @@ const config = {
 		adapter: adapter({
 			fallback: '404.html'
 		}),
-		/*paths: {
+        
+		paths: {
 			base: process.argv.includes('dev') ? '' : "/website"
-		}*/
+		},
 	}
 };
 
