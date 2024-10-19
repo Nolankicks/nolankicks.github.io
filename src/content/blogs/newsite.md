@@ -11,7 +11,7 @@ Ever since I wrote a bot for my discord I've been wanting to jump into web dev.
 
 <Header title="How it works" />
 
-I've been told Tailwind css is a great lib, so I added that. I'm used to normal CSS, so it took some time getting used to. After some time I got better at using it and realised how helpful it really is.
+I've been told Tailwind CSS is a great lib, so I added that. I'm used to normal CSS, so it took some time getting used to. After some time I got better at using it and realised how helpful it really is.
 
 The hardest part for me was the Github pages deployment. I know it sounds dumb, but I had some config issues in my package.json and svelte.config.js. After I got some help sorting them out, it's been smooth sailing.
 
