@@ -11,7 +11,7 @@
         <a href="{base}/" class="hover:scale-105 transition-all active:scale-95">kicks</a>
         
         <div class="flex space-x-4">
-            <a href="{base}/projects" class="text-white hover:text-gray-300 hover:scale-105 active:text-gray-500 active:scale-95 transition-all">Projects</a>
+            <a href="website/projects" class="text-white hover:text-gray-300 hover:scale-105 active:text-gray-500 active:scale-95 transition-all">Projects</a>
         </div>
     </div>
 </nav>
