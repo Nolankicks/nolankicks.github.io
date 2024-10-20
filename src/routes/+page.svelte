@@ -1,33 +1,42 @@
-<script lang="ts">
-    const url = "https://avatars.githubusercontent.com/u/95300917?s=400&u=4b7a75efdafbd368929511d483099250821ded21&v=4";
-    const githubUrl = "github-mark.png";
-    const sboxUrl = "sbox.png";
-    import DiscordEmbed from "../lib/components/DiscordEmbed.svelte";
+<script>
+    import { onMount } from 'svelte';
+    export const pfpUrl = 'https://avatars.githubusercontent.com/u/95300917?s=400&u=4b7a75efdafbd368929511d483099250821ded21&v=4';
 </script>
 
-<div class="min-h-screen flex items-center justify-center font-poppins text-white">
-    <div class="w-full max-w-md h-auto bg-transparentblue p-5 rounded-md flex flex-col pointer-events-auto shadow-2xl">
-        <div class="w-full flex flex-col sm:flex-row items-center mb-4">
-            <a href="https://open.spotify.com/album/6vVOpqIXPbM9vZWzesdTax" class="bg-transparentblack0 w-32 h-32 rounded-md shrink-0 mb-4 sm:mb-0 sm:mr-4 hover:scale-105 transition-all active:scale-95" style="background-image: url({url}); background-size: cover;">
-            </a>
-            <div class="flex flex-col h-full">
-                <div class="w-full items-center justify-center p-4 sm:p-6 flex-grow">
-                    <div class="text-3xl sm:text-3xl font-semibold">Hey, I'm kicks</div>
-                    <div>I enjoy programming using C#, TS/JS, and HTML + CSS</div>
-                </div>
+<div class="flex h-screen flex-col items-center justify-center p-4 font-poppins text-white from-blue-900 via-gray-900 to-black">
+    <div class="flex flex-col items-center justify-center gap-4 p-6 w-full max-w-xl bg-gray-800 rounded-md bg-transparentblue shadow-lg animate-fadein">
+        <div class="w-full flex flex-col md:flex-row items-center">
+            <img src="{pfpUrl}" class="w-40 h-40 rounded-md mb-4 md:mb-0 md:mr-6" alt="Ultra 85" />
+            <div class="flex flex-col items-center md:items-start text-center md:text-left">
+                <div class="text-3xl md:text-4xl font-bold mb-2">Hey, I'm kicks</div>
+                <div class="text-xl md:text-2xl">I enjoy programming using C#, TypeScript/JavaScript, and HTML + CSS</div>
             </div>
         </div>
-        <div class="w-full flex items-center justify-center sm:justify-start gap-4">
-            <a href="https://github.com/Nolankicks" class="w-12 h-12 rounded-md shrink-0 hover:scale-105 transition-all active:scale-95">
-                <img src={githubUrl} alt="GitHub Profile" class="w-full h-full object-contain rounded-md" />
-                <span class="sr-only">GitHub Profile</span>
+        <div class="flex flex-row md:justify-start justify-center w-full gap-4">
+            <a href="https://github.com/Nolankicks">
+                <img src="github-mark.png" alt="An icon for the website github" class="bg-cover h-12 w-12 hover:scale-105 active:scale-95 transition-all" />
             </a>
-            <a href="https://sbox.game/nolankicks" class="w-12 h-12 rounded-md shrink-0 hover:scale-105 transition-all active:scale-95">
-                <img src={sboxUrl} alt="s&box Profile" class="w-full h-full object-contain rounded-md" />
-                <span class="sr-only">s&box Profile</span>
+            
+            <a href="https://sbox.game/nolankicks">
+                <img src="sbox.png" alt="An icon for the game s&box" class="bg-cover rounded-md h-12 w-12 hover:scale-105 active:scale-95 transition-all" />
             </a>
         </div>
     </div>
 </div>
 
-<DiscordEmbed title="kicks" description="Programmer" />
+<style>
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-fadein {
+        animation: fadeIn 0.5s ease-in-out;
+    }
+</style>
