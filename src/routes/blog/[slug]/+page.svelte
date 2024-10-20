@@ -21,7 +21,7 @@
 
         <hr class="border-t-2 border-pictonblue mb-10" />
         <div class="bg-transparentblue rounded-md p-5 font-poppins bg-blackalpha backdrop-blur-3xl shadow-2xl justify-center flex">
-            <div class="prose text-white prose-headings:font-normal prose-a:underline prose-a:text-white hover:prose-a:text-blue hover:prose-a:transition-all">
+            <div class="prose text-white prose-headings:font-normal prose-a:underline prose-a:text-white hover:prose-a:text-altblue hover:prose-a:transition-all">
                 <svelte:component this={data.content} />
             </div>
         </div>
