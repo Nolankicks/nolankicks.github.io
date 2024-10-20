@@ -1,5 +1,6 @@
 <script lang="ts">
-    import { onMount } from 'svelte';
+    import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
+import { onMount } from 'svelte';
 
     let videoId = 'dQw4w9WgXcQ'; // YouTube video ID
 
@@ -20,3 +21,5 @@
         ></iframe>
     </div>
 </div>
+
+<DiscordEmbed title="My side of the story..."/>
