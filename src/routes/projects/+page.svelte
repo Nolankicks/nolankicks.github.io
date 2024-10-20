@@ -19,7 +19,7 @@
 				class="text-1xl text-center sm:text-start md:text-1xl font-normal mb-2 flex flex-col sm:flex-row items-center bg-transparentblack0 p-4 rounded-md hover:scale-105 transition-all cursor-pointer active:scale-95 gap-6"
 			>
 				<div class="font-bold text-xl text-nowrap flex flex-shrink-0">{project.title}</div>
-				<div class="w-full flex">{project.description}</div>
+				<div class="w-full flex items-center justify-center">{project.description}</div>
 				{#if project.image}
                     <img
 						src={project.image}

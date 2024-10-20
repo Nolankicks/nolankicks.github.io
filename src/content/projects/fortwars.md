@@ -17,7 +17,7 @@ The game state is a simple switch sate which is pretty perforant and easy to use
             //Do something
         break;
 
-        case GaemState.BuildMode:
+        case GameState.BuildMode:
             //Do something
         break...
     }
