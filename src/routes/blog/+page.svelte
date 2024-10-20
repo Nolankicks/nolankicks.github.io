@@ -10,7 +10,7 @@
 
 <div class="container mx-auto pt-0 pr-5 pb-5 pl-5 font-poppins">
     {#each data.posts as blogPost}
-        <a href={`blog/${blogPost.slug}`} class="block p-4 bg-transparentblue rounded-md shadow-lg mb-4 hover:scale-105 active:scale-95 transition-all">
+        <a href={`blog/${blogPost.slug}`} class="block p-4 bg-transparentblue rounded-md shadow-2xl mb-4 hover:scale-105 active:scale-95 transition-all">
             <h2 class="text-2xl font-bold text-white">{blogPost.title}</h2>
             <p class="text-white font-semibold">{blogPost.description}</p>
             <p class="text-gray-400 text-white">{blogPost.date}</p>
