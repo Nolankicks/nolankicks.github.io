@@ -11,8 +11,8 @@
         <Link href="/" text="kicks" />
         
         <div class="flex space-x-4">
-            <Link href="/blog" text="Blogs" />
             <Link href="/projects" text="Projects" />
+            <Link href="/blog" text="Blogs" />
         </div>
     </div>
 </nav>
