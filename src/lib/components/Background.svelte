@@ -6,7 +6,7 @@
         filter: contrast(175%) brightness(100%) blur(1px);
         background:
             linear-gradient(0deg, rgba(255, 101, 0, 0.35), transparent),
-            radial-gradient(circle, rgba(30, 62, 98, 0.9), transparent 300%),
+            linear-gradient(0deg, rgba(30, 62, 98, 0.8), transparent 500%),
             url('/noise.svg');
     }
 </style>
