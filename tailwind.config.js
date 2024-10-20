@@ -5,8 +5,9 @@ module.exports = {
     theme: {
         colors: {
 			white: '#FFFFFF',
-			transparentblue: 'rgba(46, 138, 212, 0.5)',
-			blue: 'rgba(46, 138, 212, 1)',
+			transparentblue: 'rgba(30, 62, 98, 0.5)',
+			blue: '#1E3E62',
+            altblue: '#FF6500',
 			black: '#000000',
 			transparentblack1: '#000000BB',
             
@@ -15,7 +16,8 @@ module.exports = {
 			navyblue: '#0f2898',
 			gray: '#e2e2e2',
 			lightblue: '#0092ff',
-			transparent: 'transparent'
+			transparent: 'transparent',
+            green: '#0092ff',
 		},
       extend: {
             fontFamily: {
