@@ -23,7 +23,7 @@ The game state is a simple switch sate which is pretty perforant and easy to use
     }
 ```
 
-Player data is changed though the use of [Game Events](https://sbox.game/facepunch/hc1):
+Player data is changed though the use of [Game Events](https://sbox.game/facepunch/libevents):
 ```cs
 Scene.Dispatch( new OnBuildMode() );
 ```
