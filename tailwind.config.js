@@ -10,11 +10,12 @@ module.exports = {
             altblue: '#FF6500',
 			black: '#000000',
 			transparentblack1: '#000000BB',
-            
+            orange: '#FF6500',
 			transparentblack0: '#00000011',
 			darkblue: '#091856',
 			navyblue: '#0f2898',
 			gray: '#e2e2e2',
+            kindagrey: '#f2f2f2',
 			lightblue: '#0092ff',
 			transparent: 'transparent',
             green: '#0092ff',
