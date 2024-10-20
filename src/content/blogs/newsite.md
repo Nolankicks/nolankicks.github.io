@@ -15,7 +15,7 @@ I've been told Tailwind CSS is a great lib, so I added that. I'm used to normal 
 
 The hardest part for me was the Github pages deployment. I know it sounds dumb, but I had some config issues in my package.json and svelte.config.js. After I got some help sorting them out, it's been smooth sailing.
 
-<Img src="../ghdeployment.png" />
+<Img src="../blog1/ghdeployment.png" />
 
 <Header title="Blogs" />
 

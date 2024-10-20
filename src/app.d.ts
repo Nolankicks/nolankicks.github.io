@@ -9,11 +9,13 @@ declare global {
 		// interface Platform {}
 
         interface Project {
+            slug: string,
             title: string,
-            description: string,
             date: string,
-            link: string?,
-            image: string?
+            description: string,
+            github: string?,
+            sbox: string?,
+            image: string?,
         }
 
         interface BlogPost {
@@ -21,7 +23,6 @@ declare global {
             title: string,
             date: string,
             description: string,
-            image: string
         }
 	}
 }

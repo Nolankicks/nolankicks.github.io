@@ -1,6 +1,6 @@
 import type { PageLoad } from './$types';
 
-const fortwars: App.Project = {
+/*const fortwars: App.Project = {
     title: "Fortwars",
     description: "A gamemode for Garry's Mod, made in s&box",
     date: "May 25 2024",
@@ -37,4 +37,4 @@ export const load: PageLoad = async ({ params }) => {
     return {
         projects
     };
-};
+};*/

@@ -8,7 +8,7 @@
 
 <div class="container mx-auto font-poppins flex text-white p-5 text-3xl font-bold justify-start items-center">My blogs</div>
 
-<div class="container mx-auto pt-0 pr-5 pb-5 pl-5 font-poppins">
+<div class="container mx-auto pt-0 pr-5 pb-5 pl-5 font-poppins animate-fadein">
     {#each data.posts as blogPost}
         <a href={`blog/${blogPost.slug}`} class="block p-4 bg-transparentblue rounded-md shadow-2xl mb-4 hover:scale-105 active:scale-95 transition-all">
             <h2 class="text-2xl font-bold text-white">{blogPost.title}</h2>
