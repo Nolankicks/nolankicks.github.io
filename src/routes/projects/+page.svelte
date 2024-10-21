@@ -5,7 +5,7 @@
 </script>
 
 <div class="min-h-screen flex items-center justify-center font-poppins text-white p- from-blue-900 via-gray-900 to-black">
-    <div class="w-full max-w-3xl bg-gray-800 p-6 rounded-lg bg-transparentblue shadow-lg flex flex-col gap-6 mx-5">
+    <div class="w-full max-w-3xl bg-gray-800 p-6 rounded-lg bg-transparentblue shadow-lg flex flex-col gap-6 mx-5 animate-fadein">
         <div class="text-2xl font-bold mb-4 text-center">
             I work on some projects in my spare time, here's a few of them
         </div>
