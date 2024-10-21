@@ -22,7 +22,7 @@
                     />
                 {/if}
                     <div class="flex text-xl flex-shrink-0 font-bold text-center sm:text-left">{project.title}</div>
-                    <div class="flex text-center h-full justify-center font-bold text-xl sm:text-left w-full">{project.description}</div>
+                    <div class="flex text-center h-full justify-center text-xl sm:text-left w-full">{project.description}</div>
             </a>
         {/each}
     </div>
