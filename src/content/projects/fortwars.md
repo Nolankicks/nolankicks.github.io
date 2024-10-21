@@ -6,28 +6,10 @@ sbox: 'https://sbox.game/nolankicks/fortwars'
 image: 'fortwars/fortwars.png'
 ---
 
-Fortwars is a fork of [Dead 4 Left Rewrite](deadleft). I first thought about using [HC1 from Facepunch](https://sbox.game/facepunch/hc1) as a base, but I found it too bloated.
+In Fortwars you build and fight. During the building stage you're allowed to build with props to help fortify your base. During the fighting stage, two or four teams battle to take control of the rollermine. Once one of the team holds the rollermine for 3 mins, they win.
 
-The game state is a simple switch sate which is pretty perforant and easy to use
+Fortwars has a system for UGC addon creation. It uses the new system in s&box called [Scene Maps](https://sbox.game/news/september-update-9209a15d/scene-maps). If you create an addon project in s&box and set your target game to fortwars, you are able to make maps using [Action Graph](https://sbox.game/news/action-graph).
 
-```cs
-    switch ( State )
-    {
-        case GameState.Waiting:
-            //Do something
-        break;
-
-        case GameState.BuildMode:
-            //Do something
-        break...
-    }
-```
-
-Player data is changed though the use of [Game Events](https://sbox.game/facepunch/libevents):
-```cs
-Scene.Dispatch( new OnBuildMode() );
-```
-
-Fortwars took about a week of work and polishing took a few more.
+Fortwars took about a week of work and with more work being put into polish.
 
 <Img src="../fortwars/fortwarsimg.png" />
