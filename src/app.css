@@ -7,8 +7,17 @@
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 400;
-	src: url('/fonts/Poppins-Regular.ttf');
+	src: url('/fonts/AtkinsonHyperlegible-Regular.ttf');
 }
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    src: url('/fonts/AtkinsonHyperlegible-Bold.ttf');
+}
+
+
 
 body,
 html {

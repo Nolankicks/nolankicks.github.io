@@ -4,7 +4,7 @@
     export let href: string = '/';
     export let text: string = 'Link';
 
-    export let style: string = 'font-poppins font-bolder hover:scale-105 active:text-gray-500 active:scale-95 scale-95 text-lg transition-all opacity-50';
+    export let style: string = 'font-poppins font-bold hover:scale-105 active:text-gray-500 active:scale-95 scale-98 text-xl transition-all opacity-50';
 
 </script>
 
@@ -13,7 +13,6 @@
 <style>
     .selected {
         opacity: 1;
-        transform: scale(1.2);
     }
 
     a {
