@@ -2,30 +2,26 @@
     import type { PageData } from './$types';
     export let data: PageData;
     import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
+    import Header from '$lib/components/Header.svelte';
 </script>
 
-<div class="min-h-screen flex items-center justify-center font-poppins text-white p- from-blue-900 via-gray-900 to-black">
-    <div class="w-full max-w-3xl bg-gray-800 p-6 rounded-lg bg-transparentblue shadow-lg flex flex-col gap-6 mx-5 animate-fadein">
-        <div class="text-2xl font-bold mb-4 text-center">
-            I work on some projects in my spare time, here's a few of them
-        </div>
-        {#each data.posts as project}
-            <a
-                href={`projects/${project.slug}`}
-                class="flex flex-col sm:flex-row items-center p-4 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer active:scale-95 gap-4 bg-transparentblack0"
-            >
-                {#if project.image}
-                    <img
-                        src={project.image}
-                        alt={project.title}
-                        class="w-20 h-20 rounded-lg object-cover"
-                    />
-                {/if}
-                    <div class="flex text-xl flex-shrink-0 font-bold text-center sm:text-left">{project.title}</div>
-                    <div class="flex text-center h-full justify-center text-xl sm:text-left w-full">{project.description}</div>
-            </a>
-        {/each}
-    </div>
+<div class="container mx-auto font-poppins flex text-white p-5 text-3xl font-bold justify-center sm:justify-start items-center">
+    <Header title="Projects" />
+</div>
+<!--Change items start to center when more projects are added-->
+<div class="container mx-auto pt-0 pr-5 pb-5 pl-5 font-poppins animate-fadein flex flex-wrap flex-col gap-5 h-screen items-start">
+    {#each data.posts as project}
+        <a href={`projects/${project.slug}`} class="flex flex-row p-4 bg-transparentblue rounded-md shadow-2xl mb-4 h-auto lg:h-40 w-full lg:w-80 items-center hover:scale-105 active:scale-95 transition-all">
+            {#if project.image}
+                <img src={project.image} alt={project.title} class="bg-cover rounded-md h-32 w-32 flex-shrink-0 mr-4 transition-all" />
+            {/if}
+            <div class="flex flex-col w-full items-start">
+                <h2 class="text-xl lg:text-2xl font-bold text-white">{project.title}</h2>
+                <p class="text-sm lg:text-base text-white font-semibold">{project.description}</p>
+                <p class="text-xs lg:text-sm text-white">{project.date}</p>
+            </div>
+        </a>
+    {/each}
 </div>
 
 <DiscordEmbed title="kicks" description="Some of the projects I've worked on" />

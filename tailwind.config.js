@@ -4,7 +4,7 @@ module.exports = {
     ],
     theme: {
         colors: {
-			white: '#FFFFFF',
+			white: '#e2e2e2',
 			transparentblue: 'rgba(30, 62, 98, 0.65)',
 			blue: '#1E3E62',
             altblue: '#FF6500',

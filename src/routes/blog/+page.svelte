@@ -4,9 +4,12 @@
     export let data;
 
     import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
+    import Header from '$lib/components/Header.svelte';
 </script>
 
-<div class="container mx-auto font-poppins flex text-white p-5 text-3xl font-bold justify-start items-center">My blogs</div>
+<div class="container mx-auto font-poppins flex text-white p-5 text-3xl font-bold justify-center sm:justify-start items-center">
+    <Header title="Projects" />
+</div>
 
 <div class="container mx-auto pt-0 pr-5 pb-5 pl-5 font-poppins animate-fadein">
     {#each data.posts as blogPost}
