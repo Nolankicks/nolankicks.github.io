@@ -7,7 +7,7 @@
 
         <Link href="/" text="kicks" />
         
-        <div class="flex space-x-4">
+        <div class="flex space-x-6">
             <Link href="/projects" text="Projects" />
             <Link href="/blog" text="Blogs" />
         </div>
