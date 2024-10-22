@@ -16,6 +16,7 @@ declare global {
             github: string?,
             sbox: string?,
             image: string?,
+            lang: string?,
         }
 
         interface BlogPost {

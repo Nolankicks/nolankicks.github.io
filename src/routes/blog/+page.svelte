@@ -8,7 +8,7 @@
 </script>
 
 <div class="container mx-auto font-poppins flex text-white p-5 text-3xl font-bold justify-center sm:justify-start items-center">
-    <Header title="Projects" />
+    <Header title="Blogs" />
 </div>
 
 <div class="container mx-auto pt-0 pr-5 pb-5 pl-5 font-poppins animate-fadein">

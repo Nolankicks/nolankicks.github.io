@@ -1,7 +1,8 @@
 ---
 title: 'Fortwars'
 description: "A gamemode for Garry's Mod, made in s&box"
-date: 'Sep 27 24'
+date: 'Sep 27 2024'
+lang: 'C#, Razor, s&box'
 sbox: 'https://sbox.game/nolankicks/fortwars'
 image: 'fortwars/fortwars.png'
 ---

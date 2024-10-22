@@ -1,8 +1,9 @@
 ---
 title: 'Crazy Cab'
 description: "A fun racing game"
-date: 'Aug 27 24'
+date: 'Aug 27 2024'
 sbox: 'https://sbox.game/vidya/crazy-cab'
+lang: 'C#, Razor, s&box'
 image: 'crazycab/crazycabthumb.png'
 ---
 Crazy Cab is a fun arcade racing game. Collect the stars or race to finish, either way, this cab is crazy.

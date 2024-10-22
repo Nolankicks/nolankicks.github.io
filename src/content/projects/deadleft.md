@@ -1,7 +1,8 @@
 ---
 title: 'Dead 4 Left'
 description: "A zombie shooter in s&box"
-date: 'Sep 15 24'
+date: 'Sep 15 2024'
+lang: 'C#, Razor, s&box'
 sbox: 'https://sbox.game/nolankicks/dead4left'
 github: 'https://sbox.game/nolankicks/dead4left'
 image: 'deadleft/dead4leftimage.png'
