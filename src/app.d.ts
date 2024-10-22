@@ -17,6 +17,7 @@ declare global {
             sbox: string?,
             image: string?,
             lang: string?,
+            redirect: string?,
         }
 
         interface BlogPost {

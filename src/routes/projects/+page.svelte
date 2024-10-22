@@ -11,7 +11,7 @@
 <!--Change items start to center when more projects are added-->
 <div class="container mx-auto pt-0 pr-5 pb-5 pl-5 font-poppins animate-fadein flex flex-wrap flex-col gap-5 h-screen items-start">
     {#each data.posts as project}
-        <a href={`projects/${project.slug}`} class="flex flex-row p-4 bg-transparentblue rounded-md shadow-2xl mb-4 h-auto lg:h-40 w-full items-center hover:scale-105 active:scale-95 transition-all">
+        <a href={project.redirect ? project.redirect : `projects/${project.slug}`} class="flex flex-row {project.image ? "h-auto" : "h-40"} p-4 bg-transparentblue rounded-md shadow-2xl mb-4 lg:h-40 w-full items-center hover:scale-105 active:scale-95 transition-all">
             {#if project.image}
                 <img src={project.image} alt={project.title} class="bg-cover rounded-md h-32 w-32 flex-shrink-0 mr-4 transition-all" />
             {/if}
