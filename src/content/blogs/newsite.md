@@ -39,4 +39,6 @@ Ever since I wrote a bot for my discord I've been wanting to jump into web dev.
 I enjoyed the overall experience of using svelte and would reccomend it. Shout out to matek and duston for their refrence code from their websites.
 I plan to post more blogs on here about whatever.
 
+You can find the source code [here](https://github.com/Nolankicks/nolankicks.github.io)
+
 <Spotify src="track/4JfpJrrGNXRj2yXm1fYV23?si=yHVy_Jz3QZmzkUAXHKjhzA" />
