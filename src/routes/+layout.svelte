@@ -1,5 +1,6 @@
 <script lang="ts">
     import "../app.css";
+    import { page } from '$app/stores';
     import Background from "../lib/components/Background.svelte";
     import "../syntax-highlight.css";
     import Link from "$lib/components/Link.svelte";
@@ -11,3 +12,8 @@
 <Background />
 
 <slot></slot>
+
+
+{#if $page.url.pathname !== "/"}
+    <Footer />
+{/if}

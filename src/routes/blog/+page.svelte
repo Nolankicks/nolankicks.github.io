@@ -11,9 +11,9 @@
     <Header title="Blogs" />
 </div>
 
-<div class="container mx-auto pt-0 pr-5 pb-5 pl-5 font-poppins animate-fadein">
+<div class="w-full h-full min-h-screen flex flex-col items-center justify-start pt-0 pr-5 container mx-auto pb-5 pl-5 font-poppins animate-fadein">
     {#each data.posts as blogPost}
-        <a href={`blog/${blogPost.slug}`} class="block p-4 bg-transparentblue rounded-md shadow-2xl mb-4 hover:scale-105 active:scale-95 transition-all">
+        <a href={`blog/${blogPost.slug}`} class="block p-4 bg-transparentblue rounded-md shadow-2xl mb-4 hover:scale-105 active:scale-95 transition-all w-full">
             <h2 class="text-2xl font-bold text-white">{blogPost.title}</h2>
             <p class="text-white font-semibold">{blogPost.description}</p>
             <p class="text-gray-400 text-white">{blogPost.date}</p>
