@@ -5,7 +5,7 @@
 <nav class="bottom-0 z-50 mx-auto flex w-full flex-col bg-blue p-4 drop-shadow-md text-white font-poppins">
     <div class="container mx-auto flex flex-col items-center justify-between sm:flex-row">
 
-        <div class="font-poppins font-bold flex items-center justify-center active:text-gray-500 text-sm mb-4 sm:mb-0 text-center">2024 kicks. All rights are protected in a high tech safe. (The code is 1345)</div>
+        <div class="font-poppins font-bold flex items-start justify-center active:text-gray-500 text-sm mb-4 sm:mb-0 text-center">2024 kicks. All rights are protected in a high tech safe. (The code is 1345)</div>
         
         <div class="flex space-x-6 items-center">
             <a href="https://github.com/Nolankicks">
