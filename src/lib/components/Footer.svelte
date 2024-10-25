@@ -9,11 +9,11 @@
         
         <div class="flex space-x-6 items-center">
             <a href="https://github.com/Nolankicks">
-                <img src="github-mark.png" alt="An icon for the website github" class="bg-cover h-9 w-9 hover:scale-105 active:scale-95 transition-all" />
+                <img src="/github-mark.png" alt="An icon for the website github" class="bg-cover h-9 w-9 hover:scale-105 active:scale-95 transition-all" />
             </a>
             
             <a href="https://sbox.game/nolankicks">
-                <img src="sbox.png" alt="An icon for the game s&box" class="bg-cover rounded-md h-9 w-9 hover:scale-105 active:scale-95 transition-all" />
+                <img src="/sbox.png" alt="An icon for the game s&box" class="bg-cover rounded-md h-9 w-9 hover:scale-105 active:scale-95 transition-all" />
             </a>
         </div>
     </div>
