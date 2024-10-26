@@ -17,11 +17,6 @@
     src: url('/fonts/AtkinsonHyperlegible-Bold.ttf');
 }
 
-body,
-html {
-  scroll-padding-top: 60px;
-}
-
 @keyframes fadeIn {
     from {
         opacity: 0;
