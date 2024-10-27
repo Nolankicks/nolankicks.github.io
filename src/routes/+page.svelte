@@ -1,5 +1,4 @@
 <script>
-    import { onMount } from 'svelte';
     export const pfpUrl = 'https://avatars.githubusercontent.com/u/95300917?s=400&u=4b7a75efdafbd368929511d483099250821ded21&v=4';
 </script>
 
@@ -23,3 +22,5 @@
         </div>
     </div>
 </div>
+
+<DiscordEmbed title="Kicks" description="My personal website" />

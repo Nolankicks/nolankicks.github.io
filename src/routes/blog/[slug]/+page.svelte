@@ -1,6 +1,5 @@
 <script lang="ts">
     import type { PageData } from './$types';
-    import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
     export let data: PageData;
 </script>
 

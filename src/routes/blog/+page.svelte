@@ -2,9 +2,6 @@
 <script lang="ts">
     import { page } from '$app/stores';
     export let data;
-
-    import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
-    import Header from '$lib/components/Header.svelte';
 </script>
 
 <div class="md:px-18 container mx-auto flex flex-col gap-4 px-2 pt-6 font-poppins sm:px-4 lg:px-32 xl:px-40 text-white">
