@@ -13,18 +13,21 @@ declare global {
             title: string,
             date: string,
             description: string,
-            github: string?,
-            sbox: string?,
-            image: string?,
-            lang: string?,
-            redirect: string?,
+            github?: string,
+            sbox?: string,
+            image?: string,
+            lang?: string,
+            redirect?: string,
+            published?: boolean,
         }
 
         interface BlogPost {
             slug: string,
             title: string,
             date: string,
+            lastedit: string,
             description: string,
+            published?: boolean,
         }
 	}
 }
