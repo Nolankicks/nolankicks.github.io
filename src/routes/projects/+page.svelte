@@ -5,14 +5,12 @@
 	import Header from '$lib/components/Header.svelte';
 </script>
 
-<div
-	class="container mx-auto font-poppins flex text-white p-5 text-3xl font-bold justify-center sm:justify-start items-center"
->
-	<Header title="Projects" />
+<div class="md:px-18 container mx-auto flex flex-col gap-4 px-2 pt-6 font-poppins sm:px-4 lg:px-32 xl:px-40 text-white">
+    <Header title="Blogs" />
 </div>
 <!--Change items start to center when more projects are added-->
 <div
-	class="container mx-auto pt-0 pr-5 pb-5 pl-5 font-poppins animate-fadein flex flex-wrap flex-col gap-5 h-screen items-start"
+	class="md:px-18 container mx-auto flex flex-col gap-4 px-2 pt-6 font-poppins sm:px-4 lg:px-32 xl:px-40 animate-fadein"
 >
 	{#each data.posts as project}
     <a
@@ -26,8 +24,8 @@
             class="bg-cover rounded-md h-32 w-32 flex-shrink-0 mr-4 transition-all"
         />
     {/if}
-    <div class="flex flex-col w-full {project.image ? 'items-start' : 'md:items-start items-center'}">
-        <h2 class="font-bold text-white {project.image ? 'text-xl lg:text-2xl' : 'text-3xl'}">{project.title}</h2>
+    <div class="flex flex-col w-full {project.image ? 'items-start' : 'sm:items-start items-center'}">
+        <h2 class="font-bold text-white text-3xl">{project.title}</h2>
         <p class="text-white font-semibold {project.image ? 'text-sm lg:text-base' : 'text-xl'}">{project.description}</p>
         {#if project.lang}
             <p class="text-white {project.image ? 'text-xs lg:text-sm' : 'text-lg md:text-xl'}">{project.lang}</p>
