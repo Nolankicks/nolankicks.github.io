@@ -12,8 +12,3 @@
 <Background />
 
 <slot></slot>
-
-
-{#if $page.url.pathname !== "/"}
-    <Footer />
-{/if}
