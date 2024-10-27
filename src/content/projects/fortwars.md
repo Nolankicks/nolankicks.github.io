@@ -13,4 +13,8 @@ Fortwars has a system for UGC addon creation. It uses the new system in s&box ca
 
 Fortwars took about a week of work and with more work being put into polish.
 
+Contributors 😃:
+[k8woz](https://scoutwozniak.github.io/) [duston](https://dch-gh.github.io/)
+
+<Video src="../fortwars/fortwarsvid.mp4" />
 <Img src="../fortwars/fortwarsimg.png" />
