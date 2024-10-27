@@ -1,6 +1,6 @@
 ---
 title: 'What now?'
-description: "My thoughts on the uncertainty of what I should work on next"
+description: "My thoughts on what I should work on next"
 date: 'Oct 26 2024'
 ---
 <Spotify src="track/7H7NyZ3G075GqPx2evsfeb" />
