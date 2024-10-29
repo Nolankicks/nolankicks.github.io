@@ -25,8 +25,7 @@ declare global {
             slug: string,
             title: string,
             date: string,
-            lastedit: string,
-            description: string,
+            description?: string,
             published?: boolean,
         }
 	}

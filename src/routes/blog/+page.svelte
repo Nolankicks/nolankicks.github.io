@@ -16,7 +16,10 @@
     {#each data.posts as blogPost}
         <a href={`blog/${blogPost.slug}`} class="block p-4 bg-transparentblue rounded-md shadow-2xl mb-4 hover:scale-105 active:scale-95 transition-all w-full">
             <h2 class="text-2xl font-bold text-white">{blogPost.title}</h2>
-            <p class="text-white font-semibold">{blogPost.description}</p>
+
+            {#if blogPost.description}
+                <p class="text-white font-semibold">{blogPost.description}</p>
+            {/if}
             <p class="text-gray-400 text-white">{blogPost.date}</p>
         </a>
     {/each}
