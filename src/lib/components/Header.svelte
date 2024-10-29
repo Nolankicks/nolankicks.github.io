@@ -2,11 +2,10 @@
 	export let title: string;
     export let author: string | undefined;
     export let authorLink: string | undefined;
-    export let size: string = '5';
 </script>
 
 <div>
-	<p class="font-poppins font-bold text-{size}xl mb-0 mt-0 text-kindagrey">{title}</p>
+	<p class="font-poppins font-bold text-5xl mb-0 mt-0 text-kindagrey">{title}</p>
 	<hr class="mt-3 {authorLink ? "mb-0" : "mb-4"}" />
 
     {#if author}
