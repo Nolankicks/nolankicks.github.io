@@ -5,6 +5,10 @@
 	import Header from '$lib/components/Header.svelte';
 </script>
 
+<svelte:head>
+    <title>Kicks-Projects</title>
+</svelte:head>
+
 <div class="md:px-18 container mx-auto flex flex-col gap-4 px-2 pt-6 font-poppins sm:px-4 lg:px-32 xl:px-40 text-white">
     <Header title="Projects" />
 </div>

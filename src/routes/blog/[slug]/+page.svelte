@@ -3,6 +3,10 @@
     export let data: PageData;
 </script>
 
+<svelte:head>
+    <title>Kicks-{data.blogPost.title}</title>
+</svelte:head>
+
 <base target="_blank" />
 
 <div class="flex flex-col font-poppins w-full mx-auto 2xl:w-[75%] p-4 sm:p-8">
