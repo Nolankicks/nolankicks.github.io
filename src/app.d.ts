@@ -27,6 +27,7 @@ declare global {
             date: string,
             description?: string,
             published?: boolean,
+            edited?: string,
         }
 	}
 }

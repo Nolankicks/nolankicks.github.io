@@ -25,6 +25,13 @@
         <hr class="border-t-2 mb-10" />
         <div class="bg-transparentblue rounded-md p-5 font-poppins bg-blackalpha backdrop-blur-3xl shadow-2xl justify-center flex animate-fadein ">
             <div class="prose text-white prose-headings:font-bold prose-headings:text-white prose-headings:font-poppins prose-a:underline prose-a:text-white hover:prose-a:text-altblue hover:prose-a:transition-all">
+                {#if data.blogPost.edited}
+                <p class="text-sm text-center w-full flex">Last edited: {new Date(data.blogPost.edited).toLocaleString('en-us', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
+                })}</p>
+                {/if}
                 <svelte:component this={data.content} />
             </div>
         </div>

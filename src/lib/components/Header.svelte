@@ -13,7 +13,7 @@
 				{title}
 			</p>
 		</a>
-		<hr class="mt-3 {authorLink ? 'mb-0' : 'mb-4'}" />
+		<hr class="mt-3 {authorLink ? 'mb-4' : 'mb-4'}" />
 
 		{#if author}
 			{#if authorLink}
@@ -23,7 +23,7 @@
 			{/if}
 
 			{#if !authorLink}
-				<p class="text-2xl font-poppins">By {author}</p>
+				<p class="text-2xl font-poppins mt-2">By {author}</p>
 			{/if}
 		{/if}
 	</div>

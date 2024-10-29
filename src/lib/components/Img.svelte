@@ -9,7 +9,7 @@
 
 <div class="text-center">
 	<img
-		class="mx-auto flex justify-center rounded-[0.3em]"
+		class="mx-auto flex justify-center rounded-[0.3em] w-["
 		class:caption-img={caption}
 		src={src}
 		alt={alt ? alt : src}
