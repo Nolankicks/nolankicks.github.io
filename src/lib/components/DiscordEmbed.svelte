@@ -7,5 +7,5 @@
 	<meta content={title} property="og:title" />
 	<meta content={description} property="og:description" />
 	<meta content="/" property="og:url" />
-	<meta content="rgba(46, 138, 212, 1)" data-react-helmet="true" name="theme-color" />
+	<meta content="#1E3E62" data-react-helmet="true" name="theme-color" />
 </svelte:head>
