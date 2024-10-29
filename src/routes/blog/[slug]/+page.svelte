@@ -24,7 +24,7 @@
 
         <hr class="border-t-2 mb-10" />
         <div class="bg-transparentblue rounded-md p-5 font-poppins bg-blackalpha backdrop-blur-3xl shadow-2xl justify-center flex animate-fadein ">
-            <div class="prose text-white prose-headings:font-normal prose-a:underline prose-a:text-white prose-h2:text-white prose-h2:font-poppins prose-h2:font-bold prose-h2:mt-3 prose-h2:mb-3 hover:prose-a:text-altblue hover:prose-a:transition-all">
+            <div class="prose text-white prose-headings:font-bold prose-headings:text-white prose-headings:font-poppins prose-a:underline prose-a:text-white hover:prose-a:text-altblue hover:prose-a:transition-all">
                 <svelte:component this={data.content} />
             </div>
         </div>
