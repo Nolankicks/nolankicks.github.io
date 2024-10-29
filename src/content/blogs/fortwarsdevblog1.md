@@ -7,7 +7,7 @@ date: 'Oct 29 2024'
 For the past few weeks, a few contributors and I have been working on a remake of [Fortwars](https://sbox.game/nolankicks/fortwars) in [s&box](https://sbox.game/about).
 
 <Header title="Goals" />
-When I started the projects, I had a few libraries I wanted to make the use of.
+When I started the projects, I had a few libraries I wanted to make use of.
 
 ### Game Events
 [Game Events](https://sbox.game/facepunch/libevents) is an event library made by Facepunch. It allows easy dispatching of events within the scene. Alot of the core game loop is managed this way.
