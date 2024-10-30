@@ -36,4 +36,5 @@
 	<p class="font-poppins font-bold text-5xl mb-0 mt-0 text-kindagrey">
 		{title}
 	</p>
+    <hr />
 {/if}
