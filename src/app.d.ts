@@ -29,6 +29,23 @@ declare global {
             published?: boolean,
             edited?: string,
         }
+
+        interface NewsPost {
+            Id: string;
+            Url: string;
+            Created: string;
+            Title: string;
+            Summary: string;
+            Media: string;
+            Package: string;
+            Sections: Sections[];
+        }
+        
+        interface Sections {
+            Id: string;
+            Title: string;
+            Contents: string;
+        }
 	}
 }
 
