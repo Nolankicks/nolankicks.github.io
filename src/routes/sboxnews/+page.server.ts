@@ -6,5 +6,7 @@ export const load: PageServerLoad = async ({ fetch }) => {
     
     let unsortedPosts: App.NewsPost[] = await (await allPostFiles).json();
 
+    unsortedPosts = unsortedPosts.filter( (post: App.NewsPost) => post.Sections[0].Contents !== "" );
+
     return { unsortedPosts };
 };
