@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
 	export let data;
 
 	function removeTag(string: string) {
@@ -45,3 +46,5 @@
 		</div>
 	</div>
 </div>
+
+<DiscordEmbed title={data.post?.Title ?? ""} description={data.post?.Summary} />
