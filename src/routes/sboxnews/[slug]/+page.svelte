@@ -3,6 +3,8 @@
 	import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
 	export let data;
 
+    let proseStyle = "prose text-white prose-headings:font-bold prose-headings:text-white prose-headings:font-poppins prose-a:underline prose-a:text-white hover:prose-a:text-altblue hover:prose-a:transition-all"
+
 	function removeTag(string: string) {
 		return string.replace('</del>', '</a>');
 	}
@@ -29,20 +31,15 @@
 
 		<hr class="border-t-2 mb-10" />
 
-		<div
-			class="bg-transparentblue rounded-md pt-5 pb-5 font-poppins backdrop-blur-3xl shadow-2xl justify-center flex animate-fadein">
-			<div
-				class="prose text-white prose-headings:font-bold prose-headings:text-white prose-headings:font-poppins prose-a:underline prose-a:text-white hover:prose-a:text-altblue hover:prose-a:transition-all">
-				{#each data.post?.Sections ?? [] as content}
-					<div class="flex flex-col items-start mb-5 last:mb-0 mt-1 first:mt-0">
-						<Header title={content.Title} />
-						<div
-							class="prose text-white prose-headings:font-bold prose-headings:text-white prose-headings:font-poppins prose-a:underline prose-a:text-white hover:prose-a:text-altblue hover:prose-a:transition-all">
-							{@html removeTag(content.Contents)}
-						</div>
-					</div>
-				{/each}
+		<div class="bg-transparentblue rounded-md p-5 font-poppins backdrop-blur-3xl shadow-2xl justify-center flex animate-fadein flex-col">
+			{#each data.post?.Sections ?? [] as content}
+			<div class="flex flex-col items-start mb-5 last:mb-0 mt-1 first:mt-0">
+				<Header title={content.Title} />
+				<div class={proseStyle}>
+					{@html removeTag(content.Contents)}
+				</div>
 			</div>
+			{/each}
 		</div>
 	</div>
 </div>
