@@ -1,17 +1,20 @@
 <script lang="ts">
     import { page } from '$app/stores';
     export let data;
-
-    console.log( data.unsortedPosts );
 </script>
 
-<div class="mx-auto min-h-screen flex items-start p-6 gap-9 flex-col text-white font-poppins">
-{#each data.unsortedPosts as post}
-    <a href="sboxnews/{post.Title}">
-        <div class="flex mt-5 mb-5 flex-col bg-blue p-5 rounded-md">
-            <h1 class="font-bold">{post.Title}</h1>
-            <p class="text-sm">{post.Summary}</p>
-        </div>
-    </a>
-{/each}
+<div class="md:px-18 container mx-auto flex flex-col gap-4 px-2 pt-6 font-poppins sm:px-4 lg:px-32 xl:px-40 text-white">
+    <Header title="S&box Blogs" />
+</div>
+
+<div class="md:px-18 container mx-auto flex flex-col gap-4 px-2 pt-6 font-poppins sm:px-4 lg:px-32 xl:px-40 animate-fadein">
+    {#each data.unsortedPosts as blogPost}
+        <a href={`sboxnews/${blogPost.Title}`} class="block p-4 bg-transparentblue rounded-md shadow-2xl mb-4 hover:scale-105 active:scale-95 transition-all w-full">
+            <h2 class="text-2xl font-bold text-white">{blogPost.Title}</h2>
+
+            {#if blogPost.Summary}
+                <p class="text-white font-semibold">{blogPost.Summary}</p>
+            {/if}
+        </a>
+    {/each}
 </div>
