@@ -29,7 +29,7 @@
 		<hr class="border-t-2 mb-10" />
 
 		<div
-			class="bg-transparentblue rounded-md p-5 font-poppins bg-blackalpha backdrop-blur-3xl shadow-2xl justify-center flex animate-fadein">
+			class="bg-transparentblue rounded-md pt-5 pb-5 font-poppins backdrop-blur-3xl shadow-2xl justify-center flex animate-fadein">
 			<div
 				class="prose text-white prose-headings:font-bold prose-headings:text-white prose-headings:font-poppins prose-a:underline prose-a:text-white hover:prose-a:text-altblue hover:prose-a:transition-all">
 				{#each data.post?.Sections ?? [] as content}
