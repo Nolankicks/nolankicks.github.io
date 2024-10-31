@@ -9,8 +9,7 @@ export interface NewsPost {
     Sections: Sections[];
 }
 
-export const NewsAsBlog = function (post: NewsPost): App.BlogPost
-{
+export const NewsAsBlog = function (post: NewsPost): App.BlogPost {
     return {
         slug: post.Title,
         title: post.Title,
@@ -19,6 +18,10 @@ export const NewsAsBlog = function (post: NewsPost): App.BlogPost
         published: true,
         IsNews: true,
     } as App.BlogPost;
+}
+
+export const GetNewsHref = function (post: NewsPost): string {
+    return `https://sbox.game/${post?.Package.replace( ".", "/")}`
 }
 
 export interface Sections {

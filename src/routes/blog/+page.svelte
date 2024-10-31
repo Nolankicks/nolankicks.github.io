@@ -27,7 +27,7 @@
                     day: 'numeric'
                 })}
             </p>
-
+            
             <p class="text-gray-400 text-white">{blogPost.IsNews ? "Sbox.Game Blog" : "Kicks Blog"}</p>
         </a>
     {/each}
