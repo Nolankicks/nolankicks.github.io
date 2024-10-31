@@ -81,3 +81,5 @@ Classes are managed through a GameResource class. In the selection UI for the cl
 I added a system to help create UCG content for Fortwars in the form of maps. To made a map, you create an addon project, set the target game to Fortwars, press play. All systems will already be loaded for you, so you can easily test your game. Mappers are even allowed to add their own logic systems using s&box's visual scripting language. When you public your map, it will automatically be listed in the main menu for players to play.
 
 <Video src="../fortwarsblog1/ugc.mov" />
+
+<Spotify src="track/3Umj02ZNl4d356pS1D38mn" />
