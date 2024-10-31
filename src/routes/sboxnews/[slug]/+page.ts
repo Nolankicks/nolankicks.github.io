@@ -1,9 +1,10 @@
+import type { NewsPost } from "$lib/types/NewsPosts";
 import type { PageLoad } from "./$types";
 
 export const load: PageLoad = async ({ params }) => {
     const { slug } = params;
     const response = await fetch('https://services.facepunch.com/sbox/news/organization/nolankicks');
-    const posts: App.NewsPost[] = await response.json();
+    const posts: NewsPost[] = await response.json();
 
     const post = posts.find(p => p.Title === slug);
 
