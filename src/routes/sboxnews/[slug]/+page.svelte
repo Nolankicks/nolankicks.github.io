@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { GetNewsHref } from '$lib/types/NewsPosts';
     import type { PageData } from './$types';
     export let data: PageData;
 
@@ -36,7 +35,7 @@
         <article class="bg-transparentblue rounded-md p-5 font-poppins bg-blackalpha backdrop-blur-3xl shadow-2xl justify-center flex animate-fadein mx-4">
             <article class="prose text-white prose-headings:font-bold prose-headings:text-white prose-headings:font-poppins prose-a:underline prose-a:text-white hover:prose-a:text-altblue hover:prose-a:transition-all">
                 <div class="flex w-full h-12 mb-4 gap-4">
-                    <a href={GetNewsHref(data.post)} class="flex items-center justify-center">
+                    <a href="https://sbox.game{data.post?.Url}" class="flex items-center justify-center">
                         <img src="../sbox.png" alt="An icon for a link" class="rounded-md bg-cover h-12 w-12 hover:scale-105 active:scale-95 transition-all" />
                     </a>
                 </div>

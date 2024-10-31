@@ -20,10 +20,6 @@ export const NewsAsBlog = function (post: NewsPost): App.BlogPost {
     } as App.BlogPost;
 }
 
-export const GetNewsHref = function (post: NewsPost): string {
-    return `https://sbox.game/${post?.Package.replace( ".", "/")}`
-}
-
 export interface Sections {
     Id: string;
     Title: string;
