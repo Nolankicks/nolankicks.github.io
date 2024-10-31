@@ -31,8 +31,8 @@
 
 <article class="flex flex-col font-poppins w-full mx-auto 2xl:w-[75%]">
         <div class="mb-10 text-white text-shadow flex flex-col self-center">
-        <hr class="border-t-2 mb-10 text-white" />
-        <article class="bg-transparentblue rounded-md p-5 font-poppins bg-blackalpha backdrop-blur-3xl shadow-2xl justify-center flex animate-fadein ">
+        <hr class="border-t-2 mb-10 text-white mx-4" />
+        <article class="bg-transparentblue rounded-md p-5 font-poppins bg-blackalpha backdrop-blur-3xl shadow-2xl justify-center flex animate-fadein mx-4">
             <article class="prose text-white prose-headings:font-bold prose-headings:text-white prose-headings:font-poppins prose-a:underline prose-a:text-white hover:prose-a:text-altblue hover:prose-a:transition-all">
                 {#each data.post?.Sections ?? [] as section}
                     {@html removeTag(section.Contents)}
