@@ -82,4 +82,7 @@ I added a system to help create UCG content for Fortwars in the form of maps. To
 
 <Video src="../fortwarsblog1/ugc.mov" />
 
+<Header title="Conclusion" />
+I had a great time working on Fortwars so far. Stay tuned for more updates!
+
 <Spotify src="track/3Umj02ZNl4d356pS1D38mn" />
