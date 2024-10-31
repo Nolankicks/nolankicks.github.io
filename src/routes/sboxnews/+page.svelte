@@ -28,4 +28,4 @@
     {/each}
 </div>
 
-<DiscordEmbed title="kicks" description="Sbox.game blogs" />
+<DiscordEmbed title="kicks" description="Sbox.game Blogs" />
