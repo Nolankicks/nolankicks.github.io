@@ -40,6 +40,7 @@
                     </a>
                 </div>
                 {#each data.post?.Sections ?? [] as section}
+                    <Header title={section.Title} />
                     {@html removeTag(section.Contents)}
                 {/each}
             </article>
