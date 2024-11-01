@@ -2,6 +2,7 @@
 title: 'Fortwars Dev Blog #1'
 description: 'A break down of Fortwars development so far'
 date: 'Oct 29 2024'
+edited: 'Nov 1 2024'
 ---
 
 For the past few weeks, a few contributors and I have been working on a remake of [Fortwars](https://sbox.game/nolankicks/fortwars) in [s&box](https://sbox.game/about).
@@ -83,6 +84,6 @@ I added a system to help create UCG content for Fortwars in the form of maps. To
 <Video src="../fortwarsblog1/ugc.mov" />
 
 <Header title="Conclusion" />
-I had a great time working on Fortwars so far. Stay tuned for more updates!
+I had a great time working on Fortwars so far. We are planing on refactoring alot of the UI, making the weapons feel great and adding more polish. Stay tuned for more updates!
 
 <Spotify src="track/0VaeksJaXy5R1nvcTMh3Xk" />

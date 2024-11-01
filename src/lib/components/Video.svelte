@@ -8,7 +8,7 @@
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <!-- svelte-ignore a11y-media-has-caption -->
 <div class="text-center">
-	<video class="mx-auto mb-2 flex justify-center rounded-[0.3em]" controls>
+	<video class="mx-auto my-5 flex justify-center rounded-[0.3em]" controls>
 		<source src={'../' + src} />
 	</video>
 
