@@ -40,7 +40,7 @@
                     </a>
                 </div>
                 {#each data.post?.Sections ?? [] as section}
-                    <Header title={section.Title} author={section.Author.Name} />
+                    <Header title={section.Title} author={section.Author.Name} authorLink="https://sbox.game{section.Author.Url}" />
                     {@html removeTag(section.Contents)}
                 {/each}
             </article>

@@ -21,7 +21,6 @@ export const NewsAsBlog = function (post: NewsPost): App.BlogPost {
 }
 
 export interface SectionAuthor {
-    Id: string
     Name: string;
     Url: string;
 }
