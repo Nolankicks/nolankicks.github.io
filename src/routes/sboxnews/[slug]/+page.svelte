@@ -39,10 +39,16 @@
                         <img src="../sbox.png" alt="An icon for a link" class="rounded-md bg-cover h-12 w-12 hover:scale-105 active:scale-95 transition-all" />
                     </a>
                 </div>
-                {#each data.post?.Sections ?? [] as section}
-                    <Header title={section.Title} author={section.Author.Name} authorLink="https://sbox.game{section.Author.Url}" />
-                    {@html removeTag(section.Contents)}
-                {/each}
+                {#if data.post?.Sections}
+                    {#each data.post.Sections as section}
+                        <Header title={section.Title} author={section.Author.Name} authorLink="https://sbox.game{section.Author.Url}" />
+                        {@html removeTag(section.Contents)}
+                    {/each}
+                {/if}
+                
+                {#if data.post?.Media}
+                    <Img src={data.post?.Media} />
+                {/if}
             </article>
         </article>
     </div>
