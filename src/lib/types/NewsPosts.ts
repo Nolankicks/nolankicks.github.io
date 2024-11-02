@@ -20,8 +20,15 @@ export const NewsAsBlog = function (post: NewsPost): App.BlogPost {
     } as App.BlogPost;
 }
 
+export interface SectionAuthor {
+    Id: string
+    Name: string;
+    Url: string;
+}
+
 export interface Sections {
     Id: string;
     Title: string;
     Contents: string;
+    Author: SectionAuthor;
 }

@@ -17,5 +17,9 @@ export const load: PageServerLoad = async ({ fetch }) => {
 
     unsortedPosts = unsortedPosts.filter( (post: NewsPost) => post.Sections[0].Contents !== "" );
 
+    unsortedPosts.forEach( (post: NewsPost) => {
+        console.log( post.Sections[0] );
+    });
+
     return { unsortedPosts };
 };
