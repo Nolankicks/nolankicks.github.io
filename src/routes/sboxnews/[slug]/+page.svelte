@@ -41,7 +41,9 @@
                 </div>
                 {#if data.post?.Sections}
                     {#each data.post.Sections as section}
-                        <Header title={section.Title} author={section.Author.Name} authorLink="https://sbox.game{section.Author.Url}" />
+                        <div class="mt-5">
+                            <Header title={section.Title} author={section.Author.Name} authorLink="https://sbox.game{section.Author.Url}" Class="mt-0" />
+                        </div>
                         {@html removeTag(section.Contents)}
                     {/each}
                 {/if}
