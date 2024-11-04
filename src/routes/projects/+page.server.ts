@@ -16,7 +16,7 @@ export const load: PageServerLoad = async ({ fetch }) => {
             };
         })
     );
-
+    
     unsortedPosts = unsortedPosts.filter( (post: App.Project) => post.published ?? true );
 
     const posts = unsortedPosts.sort((a, b) => {
