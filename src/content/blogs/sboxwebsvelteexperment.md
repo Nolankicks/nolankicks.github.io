@@ -29,7 +29,6 @@ Facepunch added [api endpoints](https://services.facepunch.com/sbox/package/get/
     "Ident": "nolankicks",
     "Title": "kicks",
     "Description": "Hey I’m kicks, take a look at some of my personal projects",
-    "Thumb": "https://cdn.sbox.game/org/nolankicks/logo.a726ce2a-23c2-4aa8-9ee3-aeb951789f2a.png",
     "WebUrl": "https://nolankicks.github.io/"
   },
   "Ident": "fortwars",
