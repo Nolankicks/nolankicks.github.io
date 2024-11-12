@@ -8,13 +8,13 @@
     <title>Kicks-Blogs</title>
 </svelte:head>
 
-<div class="md:px-18 container mx-auto flex flex-col gap-4 px-2 pt-6 font-poppins sm:px-4 lg:px-32 xl:px-40 text-white">
+<div class="md:px-18 w-full max-w-xl mx-auto flex flex-col gap-4 px-2 pt-6 font-poppins sm:px-4 lg:px-32 xl:px-40 text-white">
     <Header title="Blogs" HyperLink={false} />
 </div>
 
-<div class="md:px-18 container mx-auto flex flex-col gap-4 px-2 pt-6 font-poppins sm:px-4 lg:px-32 xl:px-40 animate-fadein">
+<div class="md:px-18 container mx-auto flex flex-col gap-4 px-2 pt-6 font-poppins sm:px-4 lg:px-32 xl:px-40 animate-fadein items-center">
     {#each data?.posts ?? [] as blogPost}
-        <a href={`${blogPost.IsNews ? "sboxnews/" : "blog/"}${blogPost.slug}`} class="block p-4 bg-secondary rounded-md shadow-2xl mb-4 hover:scale-[1.01] active:scale-[0.99] transition-all w-full">
+        <a href={`${blogPost.IsNews ? "sboxnews/" : "blog/"}${blogPost.slug}`} class="block p-4 bg-secondary rounded-md shadow-2xl mb-4 hover:scale-[1.01] active:scale-[0.99] transition-all w-full max-w-xl">
             <h2 class="text-2xl font-bold text-white">{blogPost.title}</h2>
 
             {#if blogPost.description}

@@ -6,7 +6,7 @@
 </script>
 
 {#if HyperLink}
-	<svelte:element this="h" id={title}>
+	<svelte:element this={"h"} id={title}>
 		<div>
 			<a href={`#${title}`} target="_self" style="text-decoration: none;">
 				<p
