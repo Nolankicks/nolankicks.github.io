@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div
-	class="flex w-full h-96 p-5 flex-col font-poppins items-center justify-end text-white bg-gradient-to-b from-blue-900 via-gray-900 to-black mb-11"
+	class="flex w-full h-96 p-5 flex-col font-poppins items-center justify-end text-white bg-gradient-to-b from-blue-900 via-gray-900 to-black mb-5"
 >
 	<div
 		class="flex flex-col items-center justify-center gap-4 w-full max-w-xl rounded-md animate-fadein"
