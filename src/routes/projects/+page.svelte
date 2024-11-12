@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="w-full flex items-center justify-center">
-    <div class="max-w-xl w-full my-5 mx-auto flex flex-col gap-4 pt-6 font-poppins sm:px-4 text-white px-5">
+    <div class="max-w-xl w-full my-5 mx-auto flex flex-col gap-4 pt-6 font-poppins px-5 text-white sm:px-0">
         <Header title="Blogs" HyperLink={false} />
     </div>
 </div>
