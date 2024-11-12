@@ -7,4 +7,4 @@
 
 <Background />
 
-<slot></slot>
+<slot />
