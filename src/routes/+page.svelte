@@ -23,7 +23,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="px-5 rounded-md mb-4 hover:scale-[1.01] active:scale-[0.99] transition-all w-full flex gap-6">
+		<div class="px-5 rounded-md mb-4 transition-all w-full flex gap-6">
 			<a href="https://github.com/Nolankicks">
 				<img
 					src="github-mark.png"
