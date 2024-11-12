@@ -6,8 +6,8 @@
     <title>Kicks</title>
 </svelte:head>
 
-<div class="flex absolute top-0 left-0 bottom-0 right-0 flex-col items-center justify-center p-4 font-poppins text-white from-blue-900 via-gray-900 to-black">
-    <div class="flex flex-col items-center justify-center gap-4 p-6 w-full max-w-xl rounded-md bg-transparentblue animate-fadein">
+<div class="flex absolute top-0 left-0 bottom-0 right-0 flex-col items-center justify-center font-poppins text-white from-blue-900 via-gray-900 to-black">
+    <div class="flex flex-col items-center justify-center gap-4 w-full max-w-xl rounded-md animate-fadein">
         <div class="w-full flex flex-col md:flex-row items-center">
             <div class="flex flex-col items-center md:items-start text-center md:text-left">
                 <div class="text-3xl md:text-4xl font-bold mb-2">Hey, I'm kicks</div>
