@@ -44,6 +44,8 @@
 
 <div class="w-full flex items-center justify-center md:p-0 p-5">
   <div class="flex flex-col items-center justify-center max-w-xl rounded-md animate-fadein w-full">
+    <h2 class="text-white font-poppins text-2xl flex items-start w-full font-bolder">Latest Blog</h2>
+    <hr class="my-5 w-full text-white"/>
     <a
       href={`${data.posts[0]?.IsNews ? 'sboxnews/' : 'blog/'}${data.posts[0]?.slug}`}
       class="block p-5 bg-secondary rounded-md shadow-2xl mb-4 hover:scale-[1.01] active:scale-[0.99] transition-all w-full"
