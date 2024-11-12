@@ -7,7 +7,7 @@
 </svelte:head>
 
 <div class="flex absolute top-0 left-0 bottom-0 right-0 flex-col items-center justify-center p-4 font-poppins text-white from-blue-900 via-gray-900 to-black">
-    <div class="flex flex-col items-center justify-center gap-4 p-6 w-full max-w-xl bg-gray-800 rounded-md bg-transparentblue shadow-lg animate-fadein">
+    <div class="flex flex-col items-center justify-center gap-4 p-6 w-full max-w-xl bg-secondary rounded-md bg-transparentblue shadow-lg animate-fadein">
         <div class="w-full flex flex-col md:flex-row items-center">
             <img src="{pfpUrl}" class="w-40 h-40 rounded-md mb-4 md:mb-0 md:mr-6" alt="Ultra 85" />
             <div class="flex flex-col items-center md:items-start text-center md:text-left">

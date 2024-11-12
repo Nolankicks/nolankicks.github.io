@@ -19,7 +19,7 @@
 	{#each data.posts as project}
     <a
     href={project.redirect ? project.redirect : `projects/${project.slug}`}
-    class="flex flex-row {project.image ? 'h-auto' : 'h-40'} p-4 bg-transparentblue rounded-md shadow-2xl mb-4 lg:h-40 w-full items-center hover:scale-105 active:scale-95 transition-all"
+    class="flex flex-row {project.image ? 'h-auto' : 'h-40'} p-4 bg-secondary rounded-md shadow-2xl mb-4 lg:h-40 w-full items-center hover:scale-[1.01] active:scale-[0.99] transition-all"
 >
     {#if project.image}
         <img
