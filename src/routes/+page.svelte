@@ -15,7 +15,7 @@
 	<div
 		class="flex flex-col items-center justify-center gap-4 w-full max-w-xl rounded-md animate-fadein"
 	>
-		<div class="px-5 rounded-md mb-4 transition-all w-full flex">
+		<div class="rounded-md mb-4 transition-all w-full flex">
 			<div class="flex flex-col items-center">
 				<div class="text-3xl md:text-4xl font-bold mb-2 w-full">Hey, I'm Kicks</div>
 				<div class="text-xl md:text-2xl">
@@ -23,7 +23,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="px-5 rounded-md mb-4 transition-all w-full flex gap-6">
+		<div class="rounded-md mb-4 transition-all w-full flex gap-6">
 			<a href="https://github.com/Nolankicks">
 				<img
 					src="github-mark.png"
@@ -42,7 +42,7 @@
 	</div>
 </div>
 
-<div class="w-full flex items-center justify-center md:p-0 p-5">
+<div class="w-full flex items-center justify-center p-5">
   <div class="flex flex-col items-center justify-center max-w-xl rounded-md animate-fadein w-full">
     <h2 class="text-white font-poppins text-2xl flex items-start w-full font-bolder">Latest Blog</h2>
     <hr class="my-5 w-full text-white"/>
