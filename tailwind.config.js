@@ -7,7 +7,7 @@ module.exports = {
 			white: '#e2e2e2',
 			theme: 'rgb(29, 30, 32)',
             secondary: 'rgb(46, 46, 51)',
-            tertiary: 'rgb(70, 130, 180)',
+            tertiary: '#0092ff',
 			black: '#000000',
 			gray: '#e2e2e2',
             kindagrey: '#f2f2f2',
