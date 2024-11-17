@@ -13,7 +13,7 @@
             class="bg-cover rounded-md h-32 w-32 flex-shrink-0 mr-4 transition-all"
         />
     {/if}
-    <div class="flex flex-col w-full {project.image ? 'items-start' : 'sm:items-start items-center'}">
+    <div class="flex flex-col w-full items-start">
         <h2 class="font-bold text-white text-3xl">{project.title}</h2>
         <p class="text-white font-semibold {project.image ? 'text-sm lg:text-base' : 'text-xl'}">{project.description}</p>
         {#if project.lang}
