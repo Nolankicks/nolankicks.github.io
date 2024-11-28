@@ -10,7 +10,7 @@
 		<div>
 			<a href={`#${title}`} target="_self" style="text-decoration: none;">
 				<p
-					class="font-poppins font-bold text-5xl mb-0 mt-0 text-kindagrey hover:text-orange transition-all"
+					class="font-poppins font-bold text-5xl mb-0 mt-0 text-kindagrey hover:text-tertiary transition-all"
 				>
 					{title}
 				</p>
