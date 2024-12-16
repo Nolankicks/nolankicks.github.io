@@ -54,8 +54,6 @@
             </article>
         </article>
     </div>
-
-    
 </article>
 
 <DiscordEmbed title={data.project.title} description={data.project.description} />
