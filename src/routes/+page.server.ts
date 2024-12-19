@@ -18,21 +18,26 @@ export const load: PageServerLoad = async ({ fetch }) => {
         })
     );
 
-    const allNewsPostsFetch = await fetch("https://services.facepunch.com/sbox/news/organization/nolankicks");
+    try
+    {
+        const allNewsPostsFetch = await fetch("https://services.facepunch.com/sbox/news/organization/nolankicks");
 
-    if (allNewsPostsFetch.ok) {
-        let newsPosts: NewsPost[] = await allNewsPostsFetch.json();
-
-        if (newsPosts) {
-            newsPosts = newsPosts.filter((post: NewsPost) => post.Sections[0].Contents !== "");
-
-            let newsAsBlog = newsPosts.map((post: NewsPost) => {
-                return NewsAsBlog(post);
-            });
-
-            unsortedPosts = unsortedPosts.concat(newsAsBlog);
+        if (allNewsPostsFetch.ok) {
+            let newsPosts: NewsPost[] = await allNewsPostsFetch.json();
+    
+            if (newsPosts) {
+                newsPosts = newsPosts.filter((post: NewsPost) => post.Sections[0].Contents !== "");
+    
+                let newsAsBlog = newsPosts.map((post: NewsPost) => {
+                    return NewsAsBlog(post);
+                });
+    
+                unsortedPosts = unsortedPosts.concat(newsAsBlog);
+            }
         }
     }
+    catch
+    {}
 
     unsortedPosts = unsortedPosts.filter((post: App.BlogPost) => post.published ?? true);
 
