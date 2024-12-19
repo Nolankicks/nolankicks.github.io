@@ -15,7 +15,7 @@
     </div>
 </div>
 
-<div class="w-full flex items-center flex-col px-5 animate-fadein mb-5">
+<div class="w-full flex items-center flex-col animate-fadein mb-5">
     <div class="grid w-full max-w-xl grid-cols-1 sm:grid-cols-2 grid-flow-row gap-5 px-5">
         {#each data.posts as project}
             <Project project={project} />
