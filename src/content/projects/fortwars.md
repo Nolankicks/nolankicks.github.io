@@ -1,6 +1,6 @@
 ---
-title: 'Fortwars'
-description: "A gamemode for Garry's Mod, made in s&box"
+title: 'Open Forts'
+description: "Open source implementation of Garry's Mod Fortwars in S&box"
 date: 'Sep 27 2024'
 lang: 'C#, Razor, s&box'
 sbox: 'https://sbox.game/nolankicks/fortwars'
