@@ -36,5 +36,5 @@
 	<p class="font-poppins font-bold text-5xl mb-0 mt-0 text-kindagrey">
 		{title}
 	</p>
-    <hr />
+	<p class="w-full bg-white rounded-lg h-1 flex transition-all" />
 {/if}

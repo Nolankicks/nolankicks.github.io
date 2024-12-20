@@ -25,5 +25,5 @@
 		{/if}
 	</div>
 
-    <p class="absolute -bottom-2 w-full bg-white h-1 flex {isHovered ? "opacity-100" : "opacity-0"} transition-all"></p>
+    <p class="absolute -bottom-2 w-full bg-white rounded-lg h-1 flex {isHovered ? "opacity-100" : "opacity-0"} transition-all" />
 </a>

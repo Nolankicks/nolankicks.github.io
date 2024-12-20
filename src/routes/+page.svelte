@@ -18,7 +18,7 @@
 		<h2 class="text-white font-poppins text-2xl flex items-start w-full font-bolder">
 			Latest Blog
 		</h2>
-		<hr class="my-5 w-full text-white" />
+		<p class="bg-white rounded-lg h-1 flex transition-all my-5 text-white mx-4 w-full" />
 		<a
 			href={`${data.posts[0]?.IsNews ? 'sboxnews/' : 'blog/'}${data.posts[0]?.slug}`}
 			class="block p-5 bg-secondary rounded-md mb-4 hover:scale-[1.01] active:scale-[0.99] transition-all w-full"
