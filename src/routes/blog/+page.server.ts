@@ -18,7 +18,7 @@ export const load: PageServerLoad = async ({ fetch }) => {
         })
     );
 
-    try
+    /*try
     {
         const allNewsPostsFetch = await fetch("https://services.facepunch.com/sbox/news/organization/nolankicks");
 
@@ -37,7 +37,7 @@ export const load: PageServerLoad = async ({ fetch }) => {
         }
     }
     catch
-    {}
+    {}*/
 
     unsortedPosts = unsortedPosts.filter((post: App.BlogPost) => post.published ?? true);
 
