@@ -19,6 +19,10 @@
 	<div class="flex items-start justify-center flex-col w-full h-full">
 		<p class="text-xl font-bold">{project.title}</p>
 		<p>{project.description}</p>
+		
+		{#if project.lang}
+			<p class="text-sm">{project.lang}</p>
+		{/if}
 	</div>
 
     <p class="absolute -bottom-2 w-full bg-white h-1 flex {isHovered ? "opacity-100" : "opacity-0"} transition-all"></p>
