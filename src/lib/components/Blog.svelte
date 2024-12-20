@@ -2,7 +2,7 @@
     export let blogPost;
 </script>
 
-<a href={`${blogPost.IsNews ? "sboxnews/" : "blog/"}${blogPost.slug}`} class="block p-4 bg-secondary rounded-md mb-4 hover:scale-[1.01] active:scale-[0.99] transition-all w-full max-w-xl font-poppins">
+<a href={`${blogPost.IsNews ? "sboxnews/" : "blog/"}${blogPost.slug}`} class="block p-4 bg-secondary rounded-md mb-4 hover:scale-[1.01] active:scale-[0.99] transition-all w-full max-w-3xl font-poppins">
     <h2 class="text-2xl font-bold text-white">{blogPost.title}</h2>
 
     {#if blogPost.description}
