@@ -19,7 +19,7 @@
     <hr class="my-5 w-full text-white"/>
     <a
       href={`${data.posts[0]?.IsNews ? 'sboxnews/' : 'blog/'}${data.posts[0]?.slug}`}
-      class="block p-5 bg-secondary rounded-md shadow-2xl mb-4 hover:scale-[1.01] active:scale-[0.99] transition-all w-full"
+      class="block p-5 bg-secondary rounded-md mb-4 hover:scale-[1.01] active:scale-[0.99] transition-all w-full"
     >
       <h2 class="text-2xl font-bold text-white">{data.posts[0]?.title}</h2>
 
