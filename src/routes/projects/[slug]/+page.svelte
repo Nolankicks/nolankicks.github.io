@@ -9,7 +9,7 @@
 
 <base target="_blank" />
 
-<div class="flex flex-col font-poppins w-full mx-auto px-5 py-6 mt-6 mb-6 sm:p-8 items-center justify-center">
+<div class="flex flex-col font-poppins w-full mx-auto px-5 py-6 my-4 sm:p-8 items-center justify-center">
     <div class="text-white text-shadow flex flex-col items-center justify-center">
         <p class="text-white mb-5 text-5xl md:text-7xl sm:text-5xl font-bold sm:px-0 text-center font-poppins">
             {data.project.title}
