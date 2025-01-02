@@ -9,7 +9,7 @@
 
 <base target="_blank" />
 
-<div class="flex flex-col font-poppins w-full mx-auto px-5 py-6 my-4 sm:p-8 items-center justify-center">
+<div class="flex flex-col font-poppins w-full mx-auto px-5 pt-0 pb-0 my-6 sm:p-8 items-center justify-center">
     <div class="text-white text-shadow flex flex-col items-center justify-center">
         <p class="text-white mb-5 text-5xl md:text-7xl sm:text-5xl font-bold sm:px-0 text-center font-poppins">
             {data.project.title}
@@ -28,8 +28,8 @@
 
 
 <article class="flex flex-col font-poppins w-full mx-auto 2xl:w-[75%]">
-        <div class="mb-10 text-white text-shadow flex flex-col self-center">
-            <p class="bg-white rounded-lg h-1 flex transition-all mb-10 text-white mx-4" />
+        <div class="mb-6 text-white text-shadow flex flex-col self-center">
+            <p class="bg-white rounded-lg h-1 flex transition-all mb-6 text-white mx-4" />
         <article class="bg-secondary rounded-md p-5 font-poppins backdrop-blur-3xl shadow-2xl justify-center flex animate-fadein mx-4">
             <article class="prose text-white prose-headings:font-bold prose-headings:text-white prose-headings:font-poppins prose-a:underline prose-a:text-white hover:prose-a:text-tertiary hover:prose-a:transition-all">
                 
