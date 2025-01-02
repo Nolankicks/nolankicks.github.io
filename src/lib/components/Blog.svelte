@@ -8,6 +8,7 @@
     {#if blogPost.description}
         <p class="text-white font-semibold">{blogPost.description}</p>
     {/if}
+
     <p class="text-gray-400 text-white">
         {new Date(blogPost.date).toLocaleDateString('en-US', {
             year: 'numeric',
@@ -15,6 +16,4 @@
             day: 'numeric'
         })}
     </p>
-    
-    <p class="text-gray-400 text-white">{blogPost.IsNews ? "Sbox.Game Blog" : "Kicks Blog"}</p>
 </a>
