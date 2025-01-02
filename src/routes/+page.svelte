@@ -13,7 +13,7 @@
 
 <NameCard />
 
-<div class="w-full flex items-center justify-center p-5">
+<div class="w-full flex items-center justify-center p-5 pt-0">
 	<div class="flex flex-col items-center justify-center max-w-3xl rounded-md animate-fadein w-full">
 		<h2 class="text-white font-poppins text-2xl flex items-start w-full font-bolder">
 			Latest Blog
